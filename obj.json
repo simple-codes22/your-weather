@@ -1,0 +1,163 @@
+[
+    {
+        "name": "London",
+        "weather": {
+            "LocalObservationDateTime": "2022-09-27T18:22:00+01:00",
+            "EpochTime": 1664299320,
+            "WeatherText": "Mostly cloudy",
+            "WeatherIcon": 6,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": true,
+            "Temperature": {
+                "Metric": {
+                    "Value": 12.1,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 54,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/current-weather/328328?lang=en-us",
+            "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/current-weather/328328?lang=en-us"
+        }
+    },
+    {
+        "name": "Washington",
+        "weather": {
+            "LocalObservationDateTime": "2022-09-27T13:08:00-04:00",
+            "EpochTime": 1664298480,
+            "WeatherText": "Mostly cloudy",
+            "WeatherIcon": 6,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": true,
+            "Temperature": {
+                "Metric": {
+                    "Value": 22,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 72,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/us/washington-dc/20006/current-weather/327659?lang=en-us",
+            "Link": "http://www.accuweather.com/en/us/washington-dc/20006/current-weather/327659?lang=en-us"
+        }
+    },
+    {
+        "name": "Beijing",
+        "weather": {
+            "LocalObservationDateTime": "2022-09-28T01:16:00+08:00",
+            "EpochTime": 1664298960,
+            "WeatherText": "Clear",
+            "WeatherIcon": 33,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "LocalSource": {
+                "Id": 7,
+                "Name": "Huafeng",
+                "WeatherCode": "00"
+            },
+            "IsDayTime": false,
+            "Temperature": {
+                "Metric": {
+                    "Value": 15,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 59,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/cn/beijing/101924/current-weather/101924?lang=en-us",
+            "Link": "http://www.accuweather.com/en/cn/beijing/101924/current-weather/101924?lang=en-us"
+        }
+    },
+    {
+        "name": "Melbourne",
+        "weather": {
+            "LocalObservationDateTime": "2022-09-28T03:15:00+10:00",
+            "EpochTime": 1664298900,
+            "WeatherText": "Mostly cloudy",
+            "WeatherIcon": 38,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": false,
+            "Temperature": {
+                "Metric": {
+                    "Value": 12.2,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 54,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/au/melbourne/26216/current-weather/26216?lang=en-us",
+            "Link": "http://www.accuweather.com/en/au/melbourne/26216/current-weather/26216?lang=en-us"
+        }
+    },
+    {
+        "name": "Durban",
+        "weather": {
+            "LocalObservationDateTime": "2022-09-27T19:15:00+02:00",
+            "EpochTime": 1664298900,
+            "WeatherText": "Cloudy",
+            "WeatherIcon": 7,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": false,
+            "Temperature": {
+                "Metric": {
+                    "Value": 23.1,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 74,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/za/durban/305605/current-weather/305605?lang=en-us",
+            "Link": "http://www.accuweather.com/en/za/durban/305605/current-weather/305605?lang=en-us"
+        }
+    },
+    {
+        "name": "Lagos",
+        "weather": {
+            "LocalObservationDateTime": "2022-09-27T21:52:00+04:30",
+            "EpochTime": 1664299320,
+            "WeatherText": "Clear",
+            "WeatherIcon": 33,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": false,
+            "Temperature": {
+                "Metric": {
+                    "Value": 22.3,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 72,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/af/hasankule/4067/current-weather/4067?lang=en-us",
+            "Link": "http://www.accuweather.com/en/af/hasankule/4067/current-weather/4067?lang=en-us"
+        }
+    }
+]

@@ -5,6 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'tab': {'max': '1024px'},
+      "mini": {'max': '600px'}
+      // => @media (max-width: 1535px) { ... }
+    },
     extend: {},
   },
   plugins: [],

@@ -9,15 +9,18 @@ import './index.css';
 // Routing pages for the weather application
 import Home from './components/HomePage/home';
 import Error from './components/error';
+import LocPage from './components/Location/locPage';
 
 const router = createBrowserRouter([
   {
+    index: true,
     path: '/',
     element: <Home />,
     errorElement: <Error />,
-    children: [
-      
-    ]
+  },
+  {
+    path: 'location/:locationKey',
+    element: <LocPage />,
   }
 
 ])
