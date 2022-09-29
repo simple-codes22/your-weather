@@ -68,7 +68,7 @@ const Locations = () => {
           },
         ])
     }
-    getWeatherDetails()
+    // getWeatherDetails()
     
   }, [])
 
