@@ -64,11 +64,11 @@ const Locations = () => {
           {
             name: 'Lagos',
             weather: getLagosWeatherRes_[0],
-            key: '4067'
+            key: '4607'
           },
         ])
     }
-    // getWeatherDetails()
+    getWeatherDetails()
     
   }, [])
 
