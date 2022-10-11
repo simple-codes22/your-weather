@@ -55,9 +55,9 @@ const LocPage = () => {
                 : <></>}
 
                 {locationData !== null ? 
-                <div className="flex items-center ">
-                    <WeatherImg number={locationData.WeatherIcon} class_="h-20" />
-                    <div className='flex flex-col text-xl'>
+                <div className="flex items-center mini:my-4">
+                    <WeatherImg number={locationData.WeatherIcon} class_="h-20 micro:h-14" />
+                    <div className='flex flex-col text-xl mini:text-base'>
                         <div>{locationData.Temperature.Metric.Value}&deg;C/{locationData.Temperature.Imperial.Value}&deg;F</div>
                         <div>{locationData.WeatherText}</div>
                     </div>
@@ -67,10 +67,10 @@ const LocPage = () => {
                 {forecast !== null ?
                 <div className="flex flex-col justify-center items-center w-full tracking-wide">
                     <div className="my-6 text-4xl font-medium text-gray-800">Forecast</div>
-                    <div className="italic text-2xl text-gray-500">
+                    <div className="italic text-2xl text-gray-500 text-center">
                         "{forecast.Headline.Text}"
                     </div>
-                    <div className="grid grid-cols-5 justify-center my-8">
+                    <div className="grid grid-cols-5 justify-center my-8 inbtwn:grid-cols-3 mini:grid-cols-2 micro:grid-cols-1">
                         {forecast.DailyForecasts.map(elem => {
                             const days = {
                                 0: 'Sunday',

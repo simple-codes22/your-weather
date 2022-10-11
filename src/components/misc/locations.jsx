@@ -68,7 +68,7 @@ const Locations = () => {
           },
         ])
     }
-    // getWeatherDetails()
+    getWeatherDetails()
     
   }, [])
 
@@ -78,10 +78,10 @@ const Locations = () => {
   return (
     <>
       {geolocations !== undefined ? 
-      <div className="grid grid-cols-6 justify-center mt-20 tab:grid-cols-3 mini:grid-cols-2 " id="card-holder">
+      <div className="grid grid-cols-6 justify-center mt-20 tab:grid-cols-3 mini:grid-cols-2 micro:grid-cols-1" id="card-holder">
         {geolocations.map(elem => (
           <Link key={elem.key} to={`location/${elem.key}`}>
-            <div className="flex flex-col text-center items-center justify-center m-3 rounded-md p-5 hover:bg-black" id="card" key={elem.name}>
+            <div className=" flex flex-col text-center items-center justify-center m-3 rounded-md p-5 hover:bg-black" id="card" key={elem.name}>
               <div className="p-1 tracking-wider text-xl">
                 {elem.name}
               </div>
