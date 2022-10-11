@@ -14,7 +14,7 @@ const Search = ({ outerDivClass, inputClass, LinkClass, imgClass}) => {
   }, [locationKey])
 
   const getLocationKey = async () => {
-    const locationQuery = await fetch(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${import.meta.env.VITE_PR_KEY}&q=${getQuery}`);
+    const locationQuery = await fetch(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${import.meta.env.VITE_PR_KEY}&q=${getQuery}`);
     const locationResult = await locationQuery.json();
     console.log(locationResult[0].Key);
     return setLocationKey(locationResult[0].Key);

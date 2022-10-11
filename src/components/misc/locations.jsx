@@ -21,12 +21,12 @@ const Locations = () => {
 
       // Getting the main weather details for all popular locations (user location inclusive)
         
-        const getLondonWeather = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/328328?apikey=${import.meta.env.VITE_PR_KEY}`),
-              getWashingtonWeather = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/327659?apikey=${import.meta.env.VITE_PR_KEY}`),
-              getBeijingWeather = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/101924?apikey=${import.meta.env.VITE_PR_KEY}`),
-              getMelbourneWeather = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/26216?apikey=${import.meta.env.VITE_PR_KEY}`),
-              getDurbanWeather = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/305605?apikey=${import.meta.env.VITE_PR_KEY}`),
-              getLagosWeather = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/4067?apikey=${import.meta.env.VITE_PR_KEY}`);
+        const getLondonWeather = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/328328?apikey=${import.meta.env.VITE_PR_KEY}`),
+              getWashingtonWeather = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/327659?apikey=${import.meta.env.VITE_PR_KEY}`),
+              getBeijingWeather = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/101924?apikey=${import.meta.env.VITE_PR_KEY}`),
+              getMelbourneWeather = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/26216?apikey=${import.meta.env.VITE_PR_KEY}`),
+              getDurbanWeather = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/305605?apikey=${import.meta.env.VITE_PR_KEY}`),
+              getLagosWeather = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/4067?apikey=${import.meta.env.VITE_PR_KEY}`);
       
         const getLondonWeatherRes_ = await getLondonWeather.json(),
               getWashingtonWeatherRes_ = await getWashingtonWeather.json(),

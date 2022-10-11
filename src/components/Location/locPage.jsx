@@ -19,15 +19,15 @@ const LocPage = () => {
         
         const getLocationData = async() => {
 
-            const locationResponse = await fetch(`http://dataservice.accuweather.com/locations/v1/${locationKey}?apikey=${import.meta.env.VITE_PR_KEY}`)
+            const locationResponse = await fetch(`https://dataservice.accuweather.com/locations/v1/${locationKey}?apikey=${import.meta.env.VITE_PR_KEY}`)
             const locationResult = await locationResponse.json();
             setLocationDetails(locationResult);
 
-            const dataResponse = await fetch(`http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${import.meta.env.VITE_PR_KEY}`);
+            const dataResponse = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${import.meta.env.VITE_PR_KEY}`);
             const dataResult = await dataResponse.json();
             setLocationData(dataResult[0]);
 
-            const forecastResponse = await fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${import.meta.env.VITE_PR_KEY}`);
+            const forecastResponse = await fetch(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${import.meta.env.VITE_PR_KEY}`);
             const forecastResult = await forecastResponse.json();
 
             return setForecast(forecastResult);
