@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     screens: {
       'tab': {'max': '1024px'},
-      "mini": {'max': '600px'}
+      "mini": {'max': '600px'},
+      'micro': {'max': '420px'},
       // => @media (max-width: 1535px) { ... }
     },
     extend: {},

@@ -84,7 +84,7 @@ const LocPage = () => {
                             let d2d = new Date(elem.Date);
 
                             return (
-                                <div className='flex flex-col justify-center m-3 rounded-md p-5 bg-slate-600 hover:bg-black transition-all'>
+                                <div key={elem.Date} className='flex flex-col justify-center m-3 rounded-md p-5 bg-slate-600 hover:bg-black transition-all'>
                                     {forecast.DailyForecasts.indexOf(elem) === 0 ?
                                         <><div className="tracking-wider text-lg text-white">Later Today</div>
                                         <div style={{color: '#ffffffcc'}}>Min: {parseInt(5/9 * (elem.Temperature.Minimum.Value - 32))}&deg;C/{elem.Temperature.Minimum.Value}&deg;F</div>
